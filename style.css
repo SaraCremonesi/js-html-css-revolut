@@ -60,8 +60,13 @@ button {
   border: 0.1px solid fuchsia;
   }
 
-  .fa-chevron-down, .fa-chevron-up {
+.fa-chevron-down, .fa-chevron-up {
     vertical-align: text-bottom;
-    font-size: 7px;
+    font-size: 10px;
   }
+
+.black {
+  color: black;
+}
+
 /* HEADER */
