@@ -37,14 +37,15 @@ nav {
   vertical-align: sub;
 }
 
-ul {
+.menu > ul {
   line-height: 80px;
 }
 
-ul li {
+.menu > ul > li {
   display: inline-block;
   list-style-type: none;
   margin-right: 5%;
+  position: relative;
 }
 
 a {
@@ -55,10 +56,13 @@ a {
 button {
   border-radius: 20px;
   background-color: fuchsia;
-  color: white;
   padding: 10px;
   border: 0.1px solid fuchsia;
   }
+
+button a {
+  color: white;
+}
 
 .fa-chevron-down, .fa-chevron-up {
     vertical-align: text-bottom;
@@ -69,4 +73,26 @@ button {
   color: black;
 }
 
+a:hover {
+  color: black;
+}
+
+.dropdown {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 75%;
+  line-height: 50px;
+  list-style-type: none;
+  width: 150px;
+  border: 0.5px solid lightgrey;
+}
+
+.dropdown.active {
+  display: block;
+}
+
+.dropdown li {
+  margin: 0 5%;
+}
 /* HEADER */
