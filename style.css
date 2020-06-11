@@ -83,17 +83,14 @@ a:hover {
   top: 75%;
   line-height: 50px;
   list-style-type: none;
-  width: 150px;
+  white-space: nowrap;
   border: 0.5px solid lightgrey;
   border-radius: 20px;
   border-top-right-radius: 0;
+  padding: 0 15%;
 }
 
 .dropdown.active {
   display: block;
-}
-
-.dropdown li {
-  margin: 0 5%;
 }
 /* HEADER */
